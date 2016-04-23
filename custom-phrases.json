@@ -1,0 +1,20 @@
+{
+  "Beermenu": [
+    "What beer have you got?",
+    "What is on the menu?",
+    "Show me the menu.",
+    "Wine list"
+  ],
+  "rules": [
+    "What are the rules?",
+    "rulebook",
+    "What is rule 1?"
+  ],
+  "orders": [
+    "order",
+    "add",
+    "want",
+    "get",
+    "choose"
+  ]
+}
