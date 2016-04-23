@@ -16,8 +16,6 @@ module.exports = function(skill, info, bot, message) {
         drink = 'red wine';
     }
 
-    console.log('bot = ' + bot);
-
     if (drink) {
         bot.reply(message, '<@' + message.user + '> has placed an order for a ' + drink);
 
