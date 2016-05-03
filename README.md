@@ -14,5 +14,5 @@ npm install
 ```
 ```
 bash
-export SLACK_TOKEN='<COPIED_TOKEN>';
+export SLACK_TOKEN='xoxb-39890951717-RgkoXdHrmJ33eGuUsKOW47ug';
 ```
