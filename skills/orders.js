@@ -12,8 +12,11 @@ module.exports = function(skill, info, bot, message) {
     if (message.text.indexOf('cider') > -1) {
         drink = 'cider';
     }
-    if (message.text.indexOf('wine') > -1) {
+    if (message.text.indexOf('red wine') > -1) {
         drink = 'red wine';
+    }
+    if (message.text.indexOf('white wine') > -1) {
+        drink = 'white wine';
     }
 
     if (drink) {
