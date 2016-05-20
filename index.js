@@ -10,13 +10,13 @@ var file = "orders";
 var sqlite3 = require('sqlite3').verbose();
 var db = new sqlite3.Database(file);
 db.serialize(function() {
-  db.run("CREATE TABLE IF NOT EXISTS demo (runtime REAL, orderName TEXT, userName TEXT)");
+  db.run("CREATE TABLE IF NOT EXISTS demo (runtime REAL, orderName TEXT, userName TEXT, price FLOAT)");
 
 });
 
 var Bottie = {
   Brain: new Brain(),
-  Ears: new Ears(process.env.SLACK_TOKEN)
+  Ears: new Ears('xoxb-39890951717-LmhpSXmLbWdXZ3pJld910uez')
 };
 
 var customPhrasesText;
