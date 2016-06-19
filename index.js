@@ -16,7 +16,7 @@ db.serialize(function() {
 
 var Bottie = {
   Brain: new Brain(),
-  Ears: new Ears('xoxb-39890951717-LmhpSXmLbWdXZ3pJld910uez')
+  Ears: new Ears('xoxb-39890951717-6qBeSvc1BqfaSLg7N7jee1Ed')
 };
 
 var customPhrasesText;
